@@ -42,7 +42,7 @@ public class TaskFive {
             case 12:
                 System.out.println("December");
                 break;
-             defualt:
+             default:
                 System.out.println("Enter correct number");
                 break;
         }
