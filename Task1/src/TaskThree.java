@@ -9,7 +9,6 @@ public class TaskThree {
             arr[i] = (int) (Math.random()*n);
         }
 
-
        //без перехода на новую строку
         for (int i = 0; i < arr.length ; i++) {
             System.out.print(arr[i]+" ");
