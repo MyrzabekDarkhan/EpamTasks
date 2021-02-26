@@ -7,40 +7,43 @@ public class TaskFive {
         int month = scanner.nextInt();
         switch (month){
             case 1:
-                System.out.println("Январь");
+                System.out.println("January");
                 break;
             case 2:
-                System.out.println("Февраль");
+                System.out.println("February");
                 break;
             case 3:
-                System.out.println("Март");
+                System.out.println("March");
                 break;
             case 4:
-                System.out.println("Апрель");
+                System.out.println("April");
                 break;
             case 5:
-                System.out.println("Май");
+                System.out.println("May");
                 break;
             case 6:
-                System.out.println("Июнь");
+                System.out.println("June");
                 break;
             case 7:
-                System.out.println("Июль");
+                System.out.println("July");
                 break;
             case 8:
-                System.out.println("Август");
+                System.out.println("August");
                 break;
             case 9:
-                System.out.println("Сентябрь");
+                System.out.println("September");
                 break;
             case 10:
-                System.out.println("Октябрь");
+                System.out.println("October");
                 break;
             case 11:
-                System.out.println("Ноябрь");
+                System.out.println("November");
                 break;
             case 12:
-                System.out.println("Декабрь");
+                System.out.println("December");
+                break;
+             defualt:
+                System.out.println("Enter correct number");
                 break;
         }
 
